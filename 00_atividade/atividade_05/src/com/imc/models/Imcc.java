@@ -63,13 +63,13 @@ public class Imcc {
         public String dicasImc() {
             double imc = calcularImc();
             if (imc < 18.5) {
-                return "Ta só a capa do batman né, seu tchola.";
+                return "Você a magro,mano.";
             } else if (imc >= 18.5 && imc < 24.9) {
-                return "Parabéns! Você é normal, seu viadinho.";
+                return "O seu peso é ideal.";
             } else if (imc >= 25 && imc < 29.9) {
-                return "Ta quase infartando,seu fudido! Procure um médico.";
+                return "Cuidado,você ta acima do peso .";
             } else {
-                return "Ta com a mesma massa de um planeta,seu obeso viado.";
+                return "Procure um medico.";
             }
         
     }
